@@ -1,0 +1,4 @@
+product_id,sku,product_name,unit_price_cents
+1,SKU-KEYBOARD,Mechanical Keyboard,12999
+2,SKU-MOUSE,Wireless Mouse,5999
+3,SKU-MONITOR,27in Monitor,24999

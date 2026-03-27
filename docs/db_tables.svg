@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="720" viewBox="0 0 1280 720">
+  <defs>
+    <style>
+      .bg { fill: #0b1020; }
+      .bar { fill: #111a33; }
+      .txt { fill: #e6edf3; font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace; font-size: 22px; }
+      .muted { fill: #9fb0c0; }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1280" height="720" rx="18" />
+  <rect class="bar" x="0" y="0" width="1280" height="56" rx="18" />
+  <text class="txt" x="24" y="36">psql</text>
+  <text class="txt muted" x="92" y="36"> tables</text>
+
+  <text class="txt" x="48" y="120">\dt</text>
+
+  <text class="txt" x="48" y="170">                 List of relations</text>
+  <text class="txt" x="48" y="205"> Schema |    Name     | Type  | Owner</text>
+  <text class="txt" x="48" y="240">--------+-------------+-------+-------</text>
+  <text class="txt" x="48" y="275"> public | customers   | table | etl</text>
+  <text class="txt" x="48" y="310"> public | products    | table | etl</text>
+  <text class="txt" x="48" y="345"> public | orders      | table | etl</text>
+  <text class="txt" x="48" y="380"> public | order_items | table | etl</text>
+
+  <text class="txt" x="48" y="455">\d orders</text>
+  <text class="txt" x="48" y="505">              Table "public.orders"</text>
+  <text class="txt" x="48" y="540">   Column    |  Type   | Collation | Nullable</text>
+  <text class="txt" x="48" y="575">-------------+---------+-----------+----------</text>
+  <text class="txt" x="48" y="610"> order_id    | integer |           | not null</text>
+  <text class="txt" x="48" y="645"> customer_id | integer |           | not null</text>
+  <text class="txt" x="48" y="680"> order_date  | date    |           | not null</text>
+</svg>
